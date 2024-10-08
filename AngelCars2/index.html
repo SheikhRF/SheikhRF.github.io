@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Angel Cars - Car Service and Transport</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS to improve the visuals */
+    .navbar {
+      background-color: #2d54ff;
+      border-bottom: 4px solid #640429;
+    }
+
+    .navbar-brand {
+      color: #640429 !important;
+      font-size: 28px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar-brand img {
+      max-height: 50px; /* Adjust this to control logo size */
+      margin-right: 10px; /* Space between the logo and the brand name */
+    }
+
+    .navbar-nav > li > a {
+      color: #fff !important;
+      font-size: 16px;
+    }
+
+    .navbar-nav > li > a:hover {
+      background-color: #640429 !important;
+      color: #2d54ff !important;
+    }
+
+    .hero-section {
+      background: url('car-hero-image.jpg') no-repeat center center;
+      background-size: cover;
+      color: #fff;
+      text-align: center;
+      padding: 100px 0;
+    }
+
+    .hero-section h1 {
+      font-size: 48px;
+      font-weight: bold;
+      text-shadow: 2px 2px 8px #000;
+    }
+
+    .hero-section p {
+      font-size: 24px;
+      text-shadow: 1px 1px 5px #000;
+    }
+
+    .btn-hero {
+      background-color: #640429;
+      color: #fff;
+      font-size: 20px;
+      padding: 15px 30px;
+      margin-top: 20px;
+    }
+
+    .services-section {
+      background-color: #f8f8f8;
+      padding: 60px 0;
+    }
+
+    .service-box {
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #ddd;
+      background-color: #fff;
+      margin-bottom: 30px;
+      border-radius: 8px;
+    }
+
+    .service-box h3 {
+      margin-top: 20px;
+      color: #640429;
+    }
+
+    .service-box p {
+      color: #2d54ff;
+    }
+
+    .footer {
+      background-color: #2d54ff;
+      color: #fff;
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    .footer a {
+      color: #640429;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Logo and Brand Name -->
+            <a class="navbar-brand" href="#">
+              <img src="rounded angel.png" alt="Angel Cars Logo"> <!-- Replace "your-logo.png" with your actual logo image path -->
+              Angel Cars
+            </a>
+        </div>
+      
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li> <!-- Link to the About page -->
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+<!-- Hero Section -->
+<div class="hero-section">
+  <div class="container">
+    <h1>Reliable Car Service at Your Doorstep</h1>
+    <p>Your comfort and safety are our priority.</p>
+    <a href="#" class="btn btn-hero">Book Your Ride</a>
+  </div>
+</div>
+
+<!-- Services Section -->
+<div class="services-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="service-box">
+          <img src="plane.jpg" alt="Airport Transfer" class="img-responsive">
+          <h3>Airport Transfers</h3>
+          <p>Get to the airport on time with our reliable and comfortable transfers.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-box">
+          <img src="moreluxury.jpg" alt="Business Travel" class="img-responsive">
+          <h3>Business Travel</h3>
+          <p>Executive cars and professional drivers to meet your business needs.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-box">
+          <img src="taxi.jpg" alt="City Tour" class="img-responsive">
+          <h3>City Tours</h3>
+          <p>Explore the city in comfort with our guided city tour services.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <div class="container">
+    <p>&copy; 2024 Angel Cars. All rights reserved.</p>
+    <p>Follow us: 
+      <a href="#">Facebook</a> | 
+      <a href="#">Twitter</a> | 
+      <a href="#">Instagram</a>
+    </p>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
